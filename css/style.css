@@ -1,11 +1,136 @@
+body{
+ min-width: 950px; 
+background-image: url(https://econet.ru/media/155/kindeditor/image/201302/20130209203959.jpg);
+background-size: cover;
+}
+#cont{
+width:77%;
+ display: flex;
+ justify-content: center;
+ margin: 0 auto;
+  padding: 20px;
+}
 #thisCity{
+  margin: 0 auto;
   border: 3px solid white;
   padding: 10px;
   border-radius: 15px;
-  width: 200px;
+  width: 230px;
   text-align: center;
    background: linear-gradient(to top, #FF8C00,yellow);
 font-size:20px;
 font-style:  modern;
   
+}
+#contForexchange{
+ 
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 3px solid white;
+  display:flex;
+  width:380px;
+  justify-content: center;
+  background: linear-gradient(to top, #FF8C00,orange);
+}
+
+#buy, #sale{
+font-size:20px;
+font-style:  modern;
+text-align: right;
+padding: 10px;
+margin:10px;  
+
+}
+#exchange{
+font-size:20px;
+font-style:  modern;
+text-align: left;
+padding: 10px;
+margin:10px;  
+
+  
+}
+
+
+
+#s{
+  
+ 
+font-style: italic; 
+border-radius: 15px;
+text-align: center;
+ 
+font-size: 30px; 
+margin:10px;
+}
+#single{
+border: 3px solid yellow;
+background: linear-gradient(to top, #FF8C00,orange);
+margin: 10px;
+display: flex;
+justify-content:  space-between;
+padding: 8px;
+border-radius: 15px;
+width: 80;
+font-size: 30px; 
+}
+#towns{
+  
+border: 3px solid white; 
+border-radius: 15px;
+padding: 10px;
+text-align: center;
+margin: 0 auto;
+width:77%;
+background: linear-gradient(to left,  #FF8C00,red);
+}
+#chooseTown{
+border-radius: 5px;
+width: 80%;
+height: 20px;
+color: blue;
+font-style: italic;
+font-size: 18px;
+padding: 3px;
+}
+#add{
+ font-size:18px;
+ margin-left: 13px;
+ border-radius: 5px;
+ width:70px;
+ height:29px;
+ cursor: pointer;
+
+ background: blue;
+ color: white;
+}
+
+#add:hover{
+color: red; 
+}
+.del{ 
+background-color:red;
+color:white;
+border-radius: 10px;
+cursor: pointer;
+font-size:17px;
+}
+.ref{ 
+background-color:green;
+color:white;
+border-radius: 10px;
+cursor: pointer;
+font-size:17px;
+}
+#show{
+margin: 0 auto;
+border-radius: 15px;
+padding: 10px;
+width:80%;
+ 
+
+}
+span{
+word-spacing: 40px;
+  font-size:30px;
 }
