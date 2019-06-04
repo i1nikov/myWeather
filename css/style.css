@@ -1,26 +1,11 @@
-#contForexchange{
+#thisCity{
+  border: 3px solid white;
+  padding: 10px;
   border-radius: 15px;
-  border: 1px solid;
-  display:flex;
-  width:300px;
-  justify-content: center;
-  background: linear-gradient(to top, #FF8C00,orange);
-}
-
-#buy, #sale{
+  width: 200px;
+  text-align: center;
+   background: linear-gradient(to top, #FF8C00,yellow);
 font-size:20px;
 font-style:  modern;
-text-align: right;
-padding: 10px;
-margin:10px;  
-
-}
-#exchange{
-font-size:20px;
-font-style:  modern;
-text-align: left;
-padding: 10px;
-margin:10px;  
-
   
 }
